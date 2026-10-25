@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:zombie_head"
+        },
+        "title": "\"Mob Overhaul\" Packs",
+        "description": [
+            "",
+            {
+                "text": "Packs that add loads of variety to mobs\n",
+                "color": "white"
+            }
+        ],
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "bray:root",
+    "criteria": {
+        "bray.was.here": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

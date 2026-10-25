@@ -1,0 +1,42 @@
+{
+  "parent": "cat_overhaul:cat_overhaul",
+  "display": {
+    "icon": "minecraft:debug_stick",
+    "title": "Hellcat Transform",
+    "description": "",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "hellcat_transform": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_sneaking": true
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:blaze_rod"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:components": {
+              "minecraft:cat/variant": "minecraft:withercat"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cat_overhaul:hellcat_transform"
+  }
+}

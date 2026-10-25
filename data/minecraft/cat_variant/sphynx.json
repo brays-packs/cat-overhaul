@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/sphynx",
+  "baby_asset_id": "cat_overhaul:entity/cat/sphynx_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

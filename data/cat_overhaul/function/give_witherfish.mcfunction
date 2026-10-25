@@ -1,0 +1,1 @@
+give @s cod[item_name=["Witherfish"],food={nutrition:4,saturation:4},consumable={on_consume_effects:[{type:apply_effects,effects:[{id:wither,duration:200},{id:hunger,duration:600,probability:0.8}]}]},item_model="cat_overhaul:witherfish",max_stack_size=16]

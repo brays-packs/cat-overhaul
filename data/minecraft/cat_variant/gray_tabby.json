@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/gray_tabby",
+  "baby_asset_id": "cat_overhaul:entity/cat/gray_tabby_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

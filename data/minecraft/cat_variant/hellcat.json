@@ -1,0 +1,13 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/hellcat",
+  "baby_asset_id": "cat_overhaul:entity/cat/hellcat_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "minecraft:fortress"
+      },
+      "priority": 0
+    }
+  ]
+}

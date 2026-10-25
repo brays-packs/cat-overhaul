@@ -1,0 +1,53 @@
+{
+	"credit": "Bray was here :)",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/cat/cat_collar.png",
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -12, 10],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-2, 8, -17, 4, 1, 5],
+					"uvEast": [21, 6, 26, 7],
+					"uvSouth": [35, 6, 39, 7],
+					"uvWest": [30, 6, 35, 7],
+					"uvUp": [30, 6, 26, 1],
+					"sizeAdd": 0.1
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "front_left_leg",
+			"id": "front_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.1, -9.9, 5],
+			"boxes": [
+				{
+					"coordinates": [-1.85, -0.1, -4.75, 1.5, 10, 1.5]
+				}
+			]
+		},
+		{
+			"part": "front_right_leg",
+			"id": "front_right_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-1.1, -9.9, 5],
+			"boxes": [
+				{
+					"coordinates": [0.35, -0.1, -4.75, 1.5, 10, 1.5]
+				}
+			]
+		}
+	]
+}

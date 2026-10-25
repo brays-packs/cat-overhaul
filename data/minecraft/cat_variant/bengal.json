@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/bengal",
+  "baby_asset_id": "cat_overhaul:entity/cat/bengal_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

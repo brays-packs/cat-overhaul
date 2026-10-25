@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "The cat's outta the bag\n§fby Bray §4v1.0"
+      }
+    ],
+    "pack_format": 97.1,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 999
+    }
+  }
+}

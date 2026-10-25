@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg",
+      "components": {
+        "minecraft:item_model": "cat_overhaul:maine_coon_egg"
+      },
+      "count": 1
+    },
+    "title": "Maine Coon",
+    "description": [
+      "",
+      {
+        "text": "Tame a wild Maine Coon cat, potentially found in a village\n",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "dark_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "cat_overhaul:gray_tabby",
+  "criteria": {
+    "maine_coon": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:components": {
+              "minecraft:cat/variant": "minecraft:maine_coon"
+            }
+          }
+        }
+      }
+    }
+  }
+}

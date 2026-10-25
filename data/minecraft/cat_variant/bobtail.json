@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/bobtail",
+  "baby_asset_id": "cat_overhaul:entity/cat/bobtail_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

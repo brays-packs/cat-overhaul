@@ -1,0 +1,8 @@
+{
+  "parent": "cat_overhaul:tortoiseshell",
+  "criteria": {
+    "breed_end": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod",
+      "components": {
+        "minecraft:item_model": "cat_overhaul:witherfish"
+      },
+      "count": 1
+    },
+    "title": "Fishing In The River of Souls",
+    "description": [
+      {
+        "text": "Find a Witherfish, occasionally dropped by Wither Skeletons\n\n",
+        "color": "white"
+      },
+      {
+        "text": "What if you tried feeding this to a Hellcat?",
+        "color": "dark_gray"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cat_overhaul:hellcat",
+  "criteria": {
+    "witherfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:item_model": "cat_overhaul:witherfish"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg",
+      "components": {
+        "minecraft:item_model": "cat_overhaul:sphynx_egg"
+      },
+      "count": 1
+    },
+    "title": "Sphynx",
+    "description": [
+      "",
+      {
+        "text": "Tame a wild Sphynx cat, potentially found in a Desert Village\n",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "dark_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "cat_overhaul:russian_blue",
+  "criteria": {
+    "sphynx": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:components": {
+              "minecraft:cat/variant": "minecraft:sphynx"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/maine_coon",
+  "baby_asset_id": "cat_overhaul:entity/cat/maine_coon_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

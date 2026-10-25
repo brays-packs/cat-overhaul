@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/russian_blue",
+  "baby_asset_id": "cat_overhaul:entity/cat/russian_blue_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

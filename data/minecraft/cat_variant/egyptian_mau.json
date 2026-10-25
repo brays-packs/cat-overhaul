@@ -1,0 +1,9 @@
+{
+  "asset_id": "cat_overhaul:entity/cat/egyptian_mau",
+  "baby_asset_id": "cat_overhaul:entity/cat/egyptian_mau_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

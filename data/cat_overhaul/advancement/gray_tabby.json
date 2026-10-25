@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cat_spawn_egg",
+      "components": {
+        "minecraft:item_model": "cat_overhaul:gray_tabby_egg"
+      },
+      "count": 1
+    },
+    "title": "Gray Tabby",
+    "description": [
+      "",
+      {
+        "text": "Tame a wild Gray Tabby, potentially found in a Village\n",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "dark_purple"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cat_overhaul:egyptian_mau",
+  "criteria": {
+    "gray_tabby": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:components": {
+              "minecraft:cat/variant": "minecraft:gray_tabby"
+            }
+          }
+        }
+      }
+    }
+  }
+}

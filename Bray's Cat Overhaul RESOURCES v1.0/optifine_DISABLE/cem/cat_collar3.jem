@@ -1,0 +1,67 @@
+{
+	"credit": "Bray was here :)",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -12, 10],
+			"rotate": [-90, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-2, 2, -17, 4, 7, 5],
+					"uvNorth": [26, 18, 30, 25],
+					"uvEast": [21, 18, 26, 25],
+					"uvSouth": [26, 13, 30, 6],
+					"uvWest": [30, 18, 35, 25],
+					"uvUp": [30, 18, 26, 13],
+					"sizeAdd": 0.05
+				}
+			],
+			"animations": [
+				{
+					"this.rx": 0
+				}
+			]
+		},
+		{
+			"part": "front_left_leg",
+			"id": "front_left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.1, -9.9, 5],
+			"boxes": [
+				{
+					"coordinates": [-1.85, -0.1, -4.75, 1.5, 10, 1.5],
+					"uvNorth": [42, 2, 44, 12],
+					"uvEast": [40, 2, 42, 12],
+					"uvSouth": [46, 2, 48, 12],
+					"uvWest": [44, 2, 46, 12],
+					"uvUp": [44, 2, 42, 0],
+					"uvDown": [46, 0, 44, 2],
+					"sizeAdd": 0.025
+				}
+			]
+		},
+		{
+			"part": "front_right_leg",
+			"id": "front_right_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [-1.1, -9.9, 5],
+			"boxes": [
+				{
+					"coordinates": [0.35, -0.1, -4.75, 1.5, 10, 1.5],
+					"uvNorth": [44, 2, 42, 12],
+					"uvEast": [46, 2, 44, 12],
+					"uvSouth": [48, 2, 46, 12],
+					"uvWest": [42, 2, 40, 12],
+					"uvUp": [42, 2, 44, 0],
+					"uvDown": [44, 0, 46, 2],
+					"sizeAdd": 0.025
+				}
+			]
+		}
+	]
+}

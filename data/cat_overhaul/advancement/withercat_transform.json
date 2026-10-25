@@ -1,0 +1,45 @@
+{
+  "parent": "cat_overhaul:cat_overhaul",
+  "display": {
+    "icon": "minecraft:debug_stick",
+    "title": "Withercat Transform",
+    "description": "",
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "withercat_transform": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_sneaking": true
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:cod",
+          "components": {
+            "minecraft:item_model": "cat_overhaul:witherfish"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat",
+            "minecraft:components": {
+              "minecraft:cat/variant": "minecraft:hellcat"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cat_overhaul:withercat_transform"
+  }
+}
